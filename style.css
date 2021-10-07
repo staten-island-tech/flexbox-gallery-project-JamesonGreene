@@ -2,30 +2,43 @@ html,
 body,
 * {
   padding: 0;
-  margin: 3rem;
+  margin: 0;
   font-size: 62.5%;
   box-sizing: border-box;
+}
+body {
   background-color: purple;
 }
 .header {
   text-align: center;
   font-size: 5rem;
+  margin: 5rem auto;
 }
 .flexboxes {
   background-color: red;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  height: 100%;
+  width: 90vw;
+  margin: 5rem auto;
+  align-items: center;
 }
 .flexbox-content {
   border: solid black 10px;
   background-color: blue;
-  width: 30rem;
+  width: 27%;
   height: 30rem;
+  margin: 5rem auto;
 }
 .text {
   font-size: 3rem;
   background-color: blue;
   color: white;
+  text-align: center;
+  margin: 1rem auto;
+}
+.flexbox-img {
+  position: relative;
+  width: 80%;
+  margin: 0rem 2rem auto;
 }
