@@ -58,3 +58,13 @@ h1 {
   width: 65%;
   border-radius: 1%;
 }
+@media (max-width: 1024px) {
+  .flexbox-content {
+    width: 40%;
+  }
+}
+@media (max-width: 600px) {
+  .flexbox-content {
+    width: 70%;
+  }
+}
