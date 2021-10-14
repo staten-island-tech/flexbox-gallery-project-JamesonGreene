@@ -47,15 +47,15 @@ h1 {
   margin: 1rem auto;
 }
 .flexbox-img {
-  width: 70%;
+  width: 75%;
   border-radius: 1%;
 }
 #vaxei {
-  width: 60%;
+  width: 65%;
   border-radius: 1%;
 }
 #remote-control {
-  width: 65%;
+  width: 70%;
   border-radius: 1%;
 }
 @media (max-width: 1024px) {
