@@ -53,10 +53,12 @@ h1 {
 #vaxei {
   width: 65%;
   border-radius: 1%;
+  transition: transform 1s ease-in-out;
 }
 #remote-control {
   width: 70%;
   border-radius: 1%;
+  transition: transform 1s ease-in-out;
 }
 @media (max-width: 1024px) {
   .flexbox-content {
@@ -68,6 +70,12 @@ h1 {
     width: 70%;
   }
 }
+#remote-control:hover {
+  transform: rotate(360deg);
+}
 .flexbox-content:hover {
   transform: scale(1.1);
+}
+#vaxei:hover {
+  transform: rotate(-360deg);
 }
