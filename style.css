@@ -9,6 +9,7 @@ body,
 body {
   background-color: #d1e3dd;
   font-family: "Yaldevi", sans-serif;
+  animation: transitionIn 0.75s ease-in;
 }
 h1 {
   color: #32292f;
@@ -48,6 +49,7 @@ h1 {
   color: white;
   text-align: center;
   margin: 1rem auto;
+  transition: transform 0.5s ease-in-out;
 }
 .flexbox-img {
   width: 75%;
@@ -81,8 +83,8 @@ h1 {
   transform: scale(1.1);
   box-shadow: black 0 6px 20px;
 }
-.flexbox-img {
-  transform: ;
+.text:hover {
+  transform: scale(0.5);
 }
 #remote-control:hover {
   transform: rotate(360deg);
@@ -92,4 +94,16 @@ h1 {
 }
 #union:hover {
   opacity: 0;
+}
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: scale(0.1);
+    transform-origin: top;
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+    transform-origin: top;
+  }
 }
